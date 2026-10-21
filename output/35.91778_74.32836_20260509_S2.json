@@ -1,0 +1,23 @@
+{
+  "name": "35.91778_74.32836",
+  "lat": 35.917777,
+  "lon": 74.328363,
+  "size_km": 5.0,
+  "scene_id": "S2C_43SDV_20260509_0_L2A",
+  "acquired_utc": "2026-05-09T05:59:09.751000+00:00",
+  "cloud_cover_pct": 0.001095,
+  "bands": [
+    "red",
+    "green",
+    "blue"
+  ],
+  "dtype": "uint8",
+  "pixels": [
+    500,
+    500
+  ],
+  "resolution_m": 10,
+  "crs": "EPSG:32643",
+  "nitf": "35.91778_74.32836_20260509_S2.ntf",
+  "attribution": "Contains modified Copernicus Sentinel data 2026"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Satellite NITF",
+  "description": "Command-line tool: downloads free Sentinel-2/Sentinel-1 satellite imagery around a lat/lon and writes it in Maxar NITF package layout. Launch opens a Terminal, sets up its packages, and shows the usage so you can run it with your coordinates.",
+  "command": "bash run.sh",
+  "terminal": true,
+  "icon": "🛰️"
+}

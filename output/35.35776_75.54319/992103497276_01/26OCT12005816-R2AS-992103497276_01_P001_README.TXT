@@ -1,0 +1,38 @@
+PRODUCT README
+==============
+Product            : 26OCT12005816-R2AS-992103497276_01_P001
+Local order id     : 992103497276_01_P001   (generated locally - NOT a Maxar order number)
+Source satellite   : S1D  (Copernicus Sentinel-1 C-SAR IW RTC)
+Source scene id    : S1D_IW_GRDH_1SDV_20261012T005803_20261012T005828_004975_00963D_rtc
+Acquired (UTC)     : 2026-10-12 00:58:16
+Created (UTC)      : 2026-10-19 20:01:58
+Bands              : VV_VH (VV, VH), float32
+Size               : 500 x 500 pixels, 10 m, EPSG:32643
+
+Viewing geometry at scene centre
+  Satellite elevation (grazing) : 50.6 deg
+  Incidence angle               : 39.4 deg
+  Off-nadir view angle          : 34.9 deg
+  Satellite azimuth             : 100.0 deg
+  Sun elevation / azimuth       : -1.4 / 98.0 deg
+
+Processing: Sentinel-1 IW GRD, radiometrically terrain corrected (gamma0), converted to dB (float32, nodata -99). Browse: R=VV G=VH B=VV-VH.
+Look direction west (WNW) (azimuth 280 deg). Incidence/grazing are ellipsoid approximations from the swath position; local terrain slope changes the true local angle. Sun angles are computed and only informative for radar.
+
+This package uses the Maxar/DigitalGlobe delivery LAYOUT (NTF, IMD, RPB, TIL, XML, README,
+BROWSE, LICENSE) so that tools which read that layout can open it. It is NOT a Maxar product
+and contains no Maxar data.
+
+The RPB is an RPC00B model fitted to the map-projected image (fit RMS 0.0000 px). Because
+the image is already terrain corrected, height terms are zero.
+
+Files
+-----
+  26OCT12005816-R2AS-992103497276_01_P001.NTF
+  26OCT12005816-R2AS-992103497276_01_P001.IMD
+  26OCT12005816-R2AS-992103497276_01_P001.RPB
+  26OCT12005816-R2AS-992103497276_01_P001.TIL
+  26OCT12005816-R2AS-992103497276_01_P001.XML
+  26OCT12005816-R2AS-992103497276_01_P001_README.TXT
+  26OCT12005816-R2AS-992103497276_01_P001-BROWSE.JPG
+  LICENSE.TXT

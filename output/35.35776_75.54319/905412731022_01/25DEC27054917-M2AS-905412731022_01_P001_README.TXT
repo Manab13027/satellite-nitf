@@ -1,0 +1,37 @@
+PRODUCT README
+==============
+Product            : 25DEC27054917-M2AS-905412731022_01_P001
+Local order id     : 905412731022_01_P001   (generated locally - NOT a Maxar order number)
+Source satellite   : S2C  (Copernicus Sentinel-2 MSI L2A)
+Source scene id    : S2C_43SEV_20251227_0_L2A
+Acquired (UTC)     : 2025-12-27 05:49:17
+Created (UTC)      : 2026-10-19 19:59:53
+Bands              : Multi (B, G, R, N), uint16
+Size               : 500 x 500 pixels, 10 m, EPSG:32643
+
+Viewing geometry at scene centre
+  Satellite elevation (grazing) : 84.2 deg
+  Incidence angle               : 5.8 deg
+  Off-nadir view angle          : 5.2 deg
+  Satellite azimuth             : 96.9 deg
+  Sun elevation / azimuth       : 29.1 / 161.7 deg
+
+Processing: Sentinel-2 L2A surface reflectance, orthorectified by ESA. 16-bit, reflectance = DN x 1e-4 (check source offset).
+
+This package uses the Maxar/DigitalGlobe delivery LAYOUT (NTF, IMD, RPB, TIL, XML, README,
+BROWSE, LICENSE) so that tools which read that layout can open it. It is NOT a Maxar product
+and contains no Maxar data.
+
+The RPB is an RPC00B model fitted to the map-projected image (fit RMS 0.0000 px). Because
+the image is already terrain corrected, height terms are zero.
+
+Files
+-----
+  25DEC27054917-M2AS-905412731022_01_P001.NTF
+  25DEC27054917-M2AS-905412731022_01_P001.IMD
+  25DEC27054917-M2AS-905412731022_01_P001.RPB
+  25DEC27054917-M2AS-905412731022_01_P001.TIL
+  25DEC27054917-M2AS-905412731022_01_P001.XML
+  25DEC27054917-M2AS-905412731022_01_P001_README.TXT
+  25DEC27054917-M2AS-905412731022_01_P001-BROWSE.JPG
+  LICENSE.TXT

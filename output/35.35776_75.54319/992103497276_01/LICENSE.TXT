@@ -1,0 +1,16 @@
+LICENSE - SOURCE DATA
+=====================
+Source: Copernicus Sentinel-1 data (European Union / ESA), radiometrically terrain corrected
+(RTC) product hosted on Microsoft Planetary Computer (collection "sentinel-1-rtc").
+
+Copernicus Sentinel data are provided free of charge under the Copernicus data policy
+(full, free and open access) for any lawful use, commercial or non-commercial.
+The RTC processing layer is published by Microsoft Planetary Computer; check its licence
+(CC BY 4.0 at the time of writing) at:
+https://planetarycomputer.microsoft.com/dataset/sentinel-1-rtc
+
+Required attribution when you publish or share this data or products derived from it:
+    "Contains modified Copernicus Sentinel data 2026"
+    plus credit to the RTC provider as stated on the dataset page.
+
+The data are provided "as is" without warranty.

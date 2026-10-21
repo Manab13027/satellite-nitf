@@ -1,0 +1,29 @@
+# --- GitPublish defaults ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.build-venv/
+.env
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+# large media / build artifacts
+*.mp4
+*.mov
+*.aiff
+*.wav
+*.zip
+*.rar
+*.tif
+*.tiff
+*.iso
+*.dmg
+*.exe
+# secrets
+*.pem
+*.key
+token
+.gitpublish_token
